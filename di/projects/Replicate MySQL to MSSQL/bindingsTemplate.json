@@ -1,0 +1,24 @@
+{
+  "variables": {
+    "projectName": "",
+    "platformConnection": "",
+    "cloudStagingConnection": "",
+    "task.replicattion-u-ap.targetConnection": "",
+    "task.replicattion-u-ap.targetSchema": "",
+    "task.replicattion-u-ap.targetStorageConnection": "",
+    "task.replicattion-u-ap.targetControlTableSchema": "",
+    "task.replicattion-u-ap.sourceConnection": "",
+    "task.replicattion-u-ap:null$_$sales.schema": ""
+  },
+  "idToNameMap": {
+    "replicattion-u-ap": "Replicattion"
+  },
+  "connectionProperties": {
+    "{{id(connection, DataGatewayMovement.Microsoft_SQL_Server_Target)}}": {
+      "type": "reptgt_mssqltarget"
+    },
+    "{{id(connection, personal.MySQL)}}": {
+      "type": "repsrc_mysql"
+    }
+  }
+}

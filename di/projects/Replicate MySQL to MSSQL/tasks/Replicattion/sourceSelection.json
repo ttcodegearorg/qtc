@@ -1,0 +1,13 @@
+{
+  "sourceConnection": "{{task.replicattion-u-ap.sourceConnection}}",
+  "includePatterns": [],
+  "excludePatterns": [],
+  "explicitlySelected": [
+    {
+      "name": "categories",
+      "schema": "{{task.replicattion-u-ap:null$_$sales.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$sales_categories"
+    }
+  ]
+}
