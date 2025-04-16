@@ -145,7 +145,7 @@
   },
   "metadata": {
     "lobHandling": {
-      "maximumLobSize": 8,
+      "maximumLobSize": 1024,
       "lobChunkSize": 64,
       "optimizeLobSizeEnabled": false,
       "optimizeLobSize": 1,
